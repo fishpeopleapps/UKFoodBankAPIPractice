@@ -11,6 +11,13 @@
 		DF1767A82ADF258C001E0F3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1767A72ADF258C001E0F3A /* ContentView.swift */; };
 		DF1767AA2ADF258D001E0F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1767A92ADF258D001E0F3A /* Assets.xcassets */; };
 		DF1767AD2ADF258D001E0F3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1767AC2ADF258D001E0F3A /* Preview Assets.xcassets */; };
+		DF1767B42ADF25DF001E0F3A /* Foodbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1767B32ADF25DF001E0F3A /* Foodbank.swift */; };
+		DF1767B62ADF2663001E0F3A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1767B52ADF2663001E0F3A /* DataController.swift */; };
+		DF1767BA2AE32401001E0F3A /* EnterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1767B92AE32401001E0F3A /* EnterLocationView.swift */; };
+		DF1767BC2AE324E9001E0F3A /* SelectFoodBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1767BB2AE324E9001E0F3A /* SelectFoodBankView.swift */; };
+		DF9F6FDA2AE6B76D00E5B60D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F6FD92AE6B76D00E5B60D /* HomeView.swift */; };
+		DF9F6FDC2AE84C1600E5B60D /* DropoffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F6FDB2AE84C1600E5B60D /* DropoffView.swift */; };
+		DF9F6FDE2AE8538E00E5B60D /* MyFoodbankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F6FDD2AE8538E00E5B60D /* MyFoodbankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		DF1767A72ADF258C001E0F3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF1767A92ADF258D001E0F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF1767AC2ADF258D001E0F3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF1767B32ADF25DF001E0F3A /* Foodbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodbank.swift; sourceTree = "<group>"; };
+		DF1767B52ADF2663001E0F3A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		DF1767B92AE32401001E0F3A /* EnterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocationView.swift; sourceTree = "<group>"; };
+		DF1767BB2AE324E9001E0F3A /* SelectFoodBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFoodBankView.swift; sourceTree = "<group>"; };
+		DF9F6FD92AE6B76D00E5B60D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF9F6FDB2AE84C1600E5B60D /* DropoffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropoffView.swift; sourceTree = "<group>"; };
+		DF9F6FDD2AE8538E00E5B60D /* MyFoodbankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFoodbankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				DF1767A52ADF258C001E0F3A /* UKFoodBankAPIPracticeApp.swift */,
 				DF1767A72ADF258C001E0F3A /* ContentView.swift */,
+				DF1767B92AE32401001E0F3A /* EnterLocationView.swift */,
+				DF1767BB2AE324E9001E0F3A /* SelectFoodBankView.swift */,
+				DF1767B32ADF25DF001E0F3A /* Foodbank.swift */,
+				DF9F6FDB2AE84C1600E5B60D /* DropoffView.swift */,
+				DF9F6FDD2AE8538E00E5B60D /* MyFoodbankView.swift */,
+				DF9F6FD92AE6B76D00E5B60D /* HomeView.swift */,
+				DF1767B52ADF2663001E0F3A /* DataController.swift */,
 				DF1767A92ADF258D001E0F3A /* Assets.xcassets */,
 				DF1767AB2ADF258D001E0F3A /* Preview Content */,
 			);
@@ -77,6 +98,7 @@
 				DF17679E2ADF258C001E0F3A /* Sources */,
 				DF17679F2ADF258C001E0F3A /* Frameworks */,
 				DF1767A02ADF258C001E0F3A /* Resources */,
+				DF1767B82ADF37C9001E0F3A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,13 +154,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DF1767B82ADF37C9001E0F3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Build Phases -> Run script phase for Apple Silicon chips\n# Adds support for Apple Silicon brew directory\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF17679E2ADF258C001E0F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF1767A82ADF258C001E0F3A /* ContentView.swift in Sources */,
+				DF9F6FDA2AE6B76D00E5B60D /* HomeView.swift in Sources */,
+				DF1767B62ADF2663001E0F3A /* DataController.swift in Sources */,
+				DF1767BC2AE324E9001E0F3A /* SelectFoodBankView.swift in Sources */,
 				DF1767A62ADF258C001E0F3A /* UKFoodBankAPIPracticeApp.swift in Sources */,
+				DF1767B42ADF25DF001E0F3A /* Foodbank.swift in Sources */,
+				DF1767BA2AE32401001E0F3A /* EnterLocationView.swift in Sources */,
+				DF9F6FDE2AE8538E00E5B60D /* MyFoodbankView.swift in Sources */,
+				DF9F6FDC2AE84C1600E5B60D /* DropoffView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +232,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +295,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

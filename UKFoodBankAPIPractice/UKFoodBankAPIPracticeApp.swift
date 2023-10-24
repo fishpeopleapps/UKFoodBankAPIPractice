@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct UKFoodBankAPIPracticeApp: App {
+    // make it once and keep it alive the whole time
+    @State private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(dataController) // and share it to all views
         }
     }
 }
